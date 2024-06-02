@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Welcome to My Personal Website</h1>
+<nav>
+<a href="#about">About Me</a>
+<a href="#skills">Skills</a>
+<a href="#pictures">Pictures</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="profile">
+<img src="images/picture.jpg" alt="Me">
+<p>Hello! I am Nwaneti Uche Felix, a passionate web developer. I love creating dynamic and responsive websites and committed to continuous learning and staying current with the latest industry trends and technologies. Welcome to my personal space on the web.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2 >Skills</h2>
+<p>Click on each skill to see content !</p>
+<ul>
+<li  onclick="myHTML()" >HTML</li>
+<p id="html" >I use HTML in creating the skeleton of this webpage.</p>
+<li onclick="myCSS()">CSS</li>
+<p id="css" >I use CSS in the styling of the page.</p>
+<li  onclick="myJavascript()">JavaScript</li>
+<p id="javascript">I use javascript to implement how it response to an action or event</p>
+</ul>
+</section>
+
+<div class="flex-container" id="pictures">
+    <div class="picture">
+        <p>This is picture of me,Nwaneti Uche Felix from an outing I went on Festive period</p>
+        <img src="images/picture1.png" alt="picture">
+    </div>
+    <div class="picture">
+        <p>This is picture of my friend,Ovian.Who is currently outside the state</p>
+        <img src="images/picture2.png" alt="picture">
+    </div>
+    <div class="picture">
+    <p>This is picture of my friend,Oscar .He is an Optician</p>
+        <img src="images/picture3.png" alt="picture">
+    </div>
+    <div class="picture">
+        <p>This is group picture of I and my friends on a celebrative period </p>
+        <img src="images/picture4.png" alt="picture">
+    </div>
+    <div class="picture">
+        <p>This is also group picture of I and my friends on a celebrative period</p>
+        <img src="images/picture5.png" alt="picture">
+    </div>
+</div>
+
+<footer id="contact">
+<p>Contact me through my email <a href="mailto: nwanetifelix@gmail.com">nwanetifelix@gmail.com</a>or Phone number 08130889711</p>
+<p>&copy; 2024 Nwaneti Uche Felix. All rights reserved.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
